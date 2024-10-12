@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Teardrop Employee Portal</title>
+    <title>Employee Login</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to the Teardrop Employee Portal</h1>
-        <p>This is the home page.</p>
-        <a href="dashboard.html">Go to Dashboard</a>
+    <div class="login-container">
+        <h2>Employee Portal Login</h2>
+        <input type="text" id="employeeId" placeholder="Enter Employee ID" required>
+        <button onclick="login()">Login</button>
+        <p id="error-message" class="error"></p>
     </div>
     <script src="script.js"></script>
 </body>
